@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+body{
+    background-color: rgb(221, 100, 44);
+    /* background: #BA8C63; */
+    /* background: rgb(199,108,63) ; */
+    /* background: #da6d42; */
+    /* background: #9e7305; */
+    margin: 0;
+}
+
+.saatwiklogo{
+    width: 25%;
+    background-color: brown;
+    display: block;
+    align-items: center;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 1%;
+}
+
+
+
+/* .progress-bar */
+.progress-container {
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    height: 2px;
+    background: #04AA6D;
+    width: 0%;
+  }
+
+
+  .progressheader {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+
+
+
+  /* preloader */
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 9999; 
+
+}
+
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #000;
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.saatwikload{
+    height: 12vw;
+    width: 32vw;
+}
+
+
+
+
+header{
+    text-align: center;
+    /* font-size: 6vw; */
+    /* position: sticky; */
+    top: 0;
+    /* background-color:#93060a; */
+    background-color: white;
+    margin: 0;
+    opacity: 100%;
+}
+
+.saatwiklogoininfo{
+    width: 13%;
+}
+
+.grocery{
+    text-align: center;
+    /* font-size: 6vw; */
+    /* position: sticky; */
+    top: 0;
+    background-color : none;
+    margin-left: 27%;
+    width: 50%;
+    opacity: 100%;
+   
+}
+
+.saatwiklogoinmenu{
+    width: 30%;
+}
+
+
+#demo{
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 2.2vw;
+    font-style: italic;
+    font-family: Poppins;
+}
+
+
+.info{
+    text-align: center;
+    font-size: 2.4vw;
+    font-style: italic;
+}
+
+.topitalics{
+    text-align: center;
+    font-size: 2.4vw;
+    font-style: italic;
+}
+
+
+#info{
+    text-align: center;
+    font-size: 3.5vw;
+    font-style: italic;
+}
+
+
+.bold{
+    font-size: 3.5vw;
+}
+
+
+.menutitle{
+    background: #000;
+    color: #93060a;
+    text-align: center;
+    font-size: 7.5vw;
+    font-family: Dancing Script;
+    position: sticky;
+    top: 0vw;
+    /* background-color: #8e6d00; */
+    background-color: #9e7305;
+
+}
+
+.itemdesc{
+    font-size: 2.4vw;
+}
+
+.sweetdesc{
+    font-size: 3vw;
+    font-style: italic;
+}
+
+.timedesc{
+    font-family: Poppins;
+    font-size: 2.4vw;
+    font-style: italic;
+}
+
+hr.menutitlehr{
+    border: 0.761px solid rgba(111, 9, 29, 0.582);
+    width: 50%;
+    margin-top: 1px;
+}
+
+table{
+    width: 100%;
+    margin: 0%;
+    padding: 1vw;
+}
+
+.itemlist{
+    font-family: Poppins;
+    font-size: 3.85vw;
+}
+
+.rate{
+    text-align: right;
+    /* margin-right: 0%; */
+    /* margin-right: 20%; */
+}
+
+.item{
+    text-align: left;
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+
+
+.bottomnaman{
+    display: block;
+    align-items: center;
+    margin-left: 40%;
+}
+
+
+#bottomnaman{
+    width: 18vw;
+}
